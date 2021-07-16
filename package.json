@@ -1,0 +1,23 @@
+{
+  "name": "options",
+  "version": "1.0.0",
+  "description": "package for running and testing Solidity smart-contracts for American-style call and put options",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "call options",
+    "put options"
+  ],
+  "author": "Abylay Shakhizadayev",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.2.2"
+  }
+}

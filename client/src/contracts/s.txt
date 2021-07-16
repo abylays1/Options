@@ -1,0 +1,10 @@
+web3.eth.sendTransaction({from: "0xE7A0d9aC16F38a80ddD1962a332A9510b5318432",to: "0x326d14aA65E68006C119512898Be89018a0522e5",data: this.web3.eth.abi.encodeFunctionCall({name: 'transfer',type: 'function',inputs: [{type: 'address', name: 'recipient'},{type:'uint256', name:'amount'}]}, ["0x356166Bb1939A9260f04Ea21d864dA08d2b65AD8", 100000])})
+web3.eth.sendTransaction({from:"0xE7A0d9aC16F38a80ddD1962a332A9510b5318432", to:"0x356166Bb1939A9260f04Ea21d864dA08d2b65AD8", value: "10000000000000000000"})
+web3.eth.sendTransaction({from: "0xE7A0d9aC16F38a80ddD1962a332A9510b5318432",to: "0x326d14aA65E68006C119512898Be89018a0522e5",data: this.web3.eth.abi.encodeFunctionCall({name: 'balanceOf',type: 'function',inputs: [{type: 'address', name: 'recipient'}]}, ["0x356166Bb1939A9260f04Ea21d864dA08d2b65AD8"])})
+solcjs --bin --base-path . ./CallOption.sol
+solcjs --bin --base-path . ./PutOption.sol
+
+
+
+
+0x54f69892d9A587b690d2f9f33FAE7692496D41d7
