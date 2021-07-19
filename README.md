@@ -1,7 +1,7 @@
 # Options dApp
 In this repository you can find a full dApp project on the American-style Call and Put options </br>
 Project is the dApp, with smart-contract code for options written in Solidity and front-end written in (Vue, JS, HTML, CSS, Web3.js).
-The project contains configuration files for testing on Truffle, Ganache. </br>
+The project contains files for testing on Truffle, Ganache. </br>
 
 Currently I have included two types of options:
   1. American-style covered collateralized call options
